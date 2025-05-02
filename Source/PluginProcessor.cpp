@@ -22,6 +22,9 @@ SlangHostAudioProcessor::SlangHostAudioProcessor()
                        )
 #endif
 {
+    tokens = tokenize(p, &length);
+    main_interpreter = createSlangInterpreter(tokens, length);
+    interpret(main_interpreter);
 }
 
 SlangHostAudioProcessor::~SlangHostAudioProcessor()

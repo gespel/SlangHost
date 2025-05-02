@@ -58,6 +58,7 @@ private:
     //==============================================================================
     char *p = "x = 3; y = 2; z = (x + y) * 2; fn test() {yx = 5; return yx;} re = test(3, 2);";
     int length = 0;
-    Token* tokens = tokenize(p, &length);
+    Token* tokens;
+    SlangInterpreter* main_interpreter;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SlangHostAudioProcessor)
 };
