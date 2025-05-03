@@ -47,7 +47,7 @@
  #define JucePlugin_Desc                   "SlangHost"
 #endif
 #ifndef  JucePlugin_Manufacturer
- #define JucePlugin_Manufacturer           "Phi Labs"
+ #define JucePlugin_Manufacturer           "PhiLabs"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
  #define JucePlugin_ManufacturerWebsite    "www.phi-labs.com"
@@ -137,7 +137,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "Phi Labs: SlangHost"
+ #define JucePlugin_IAAName                "PhiLabs: SlangHost"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16

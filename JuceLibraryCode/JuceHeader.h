@@ -41,7 +41,7 @@
 namespace ProjectInfo
 {
     const char* const  projectName    = "SlangHost";
-    const char* const  companyName    = "Phi Labs";
+    const char* const  companyName    = "PhiLabs";
     const char* const  versionString  = "1.0.0";
     const int          versionNumber  = 0x10000;
 }
